@@ -104,13 +104,27 @@ body {
     background-color: var(--color-background-primary);
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .header {
     color: var(--color-text-title);
     font-size: 14px;
     line-height: 1.14;
     font-weight: 500;
     letter-spacing: 0.02em;
+    border-bottom: 1px solid #ECECEC;
     background-color: var(----color-background-primary-title);
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .full-logo-header {
@@ -156,6 +170,7 @@ body {
 
 .hero {
     background-color: var(--color-hero);
+    text-align: center;
 }
 
 .hero .hero-title {
@@ -163,24 +178,21 @@ body {
 }
 
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-size: 44px;
     line-height: 1.364;
-    text-align: center;
     text-transform: uppercase;
-}
+} 
 
 .button {
     font-size: 16px;
     background-color: var(--color-accent);
     color: var(--color-background-primary);
     border: none;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
     width: 200px;
     height: 50px;
     border-radius: 4px;
-    padding: 10px 32px;
 }
 
 .button:hover,
@@ -193,6 +205,8 @@ body {
     font-size: 36px;
     line-height: 1.167;
     text-align: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
 
 .content-title {
@@ -200,6 +214,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .content-text {
@@ -211,6 +226,7 @@ body {
 
 .team {
     background-color: var(--color-second-fone);
+    margin-top: 94px;
 }
 
 .person-name {
@@ -219,9 +235,15 @@ body {
     line-height: 1.19;
     font-weight: 500;
     letter-spacing: 0.03em;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 /*Footer*/
+.footer {
+    background-color: var(--color-hero);
+}
+
 .full-logo-footer {
     font-family: var(--font-family-logo);
     color: var(--color-background-primary);
@@ -243,6 +265,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+.address-link {
+    margin-bottom: 9px;
+}
+
 .address-list .address-link:hover,
 .address-list .address-link:focus {
     color: var(--color-background-primary);
@@ -250,6 +276,22 @@ body {
 }
 
 /* Portfolio page */
+
+.header-portfolio-page {
+    color: var(--color-text-title);
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    background-color: var(----color-background-primary-title);
+    margin-bottom: 94px;
+}
+
+.buttons-nav {
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
 .button-link {
     background-color: var(--color-second-fone);
     color: var(--color-text-title);
@@ -274,4 +316,17 @@ body {
     line-height: 2;
     font-weight: 700;
     letter-spacing: 0.06em;
+    padding-top: 20px;
+}
+
+.description {
+    background-color: white;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+
+.footer-portfolio-page {
+    background-color: var(--color-hero);
+    margin-top: 94px;
 }
