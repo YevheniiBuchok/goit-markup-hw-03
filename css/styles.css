@@ -308,6 +308,8 @@ body {
 
 /*Footer*/
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--color-hero);
 }
 
@@ -322,22 +324,24 @@ body {
     color: var(--color-accent);
 }
 
-.address-list .address-link {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
+.address {
+    margin-top: 20px;
+}
+
+.location-list .location + .location {
+    margin-top: 9px;
+}
+
+
+.address .address-link {
     color: var(--color-background-primary);
     opacity: 0.6;
     text-decoration: none;
     letter-spacing: 0.03em;
 }
 
-.address-link {
-    margin-bottom: 9px;
-}
-
-.address-list .address-link:hover,
-.address-list .address-link:focus {
+.address .address-link:hover,
+.address .address-link:focus {
     color: var(--color-background-primary);
     opacity: 1.0;
 }
@@ -408,10 +412,10 @@ body {
     line-height: 2;
     font-weight: 700;
     letter-spacing: 0.06em;
-    padding-top: 20px;
 }
 
 .description {
+    padding: 20px 24px;
     background-color: white;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
@@ -421,4 +425,6 @@ body {
 .footer-portfolio-page {
     background-color: var(--color-hero);
     margin-top: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
