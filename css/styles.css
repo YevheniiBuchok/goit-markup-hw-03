@@ -181,7 +181,7 @@ body {
 }
 
 .contacts-nav .contact {
-    color: var(--color-text-title);
+    color: var(--color-text);
     font-size: 14px;
     text-decoration: none;
 }
@@ -199,6 +199,7 @@ body {
 .hero {
     background-color: var(--color-hero);
     text-align: center;
+    padding: 200px 0;
 }
 
 .hero .hero-title {
@@ -222,6 +223,8 @@ body {
     border: none;
     width: 200px;
     height: 50px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
     border-radius: 4px;
 }
 
@@ -229,6 +232,11 @@ body {
 .button:focus {
     color: var(--color-second-fone);
 }
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+} 
 
 .visually-hidden {
    position: absolute;
@@ -238,9 +246,8 @@ body {
     margin: -1px;
 }
 
-.principles {
-    margin-top: 94px;
-    margin-bottom: 94px;
+.work {
+    padding-top: 0;
 }
 
 .title {
@@ -279,11 +286,6 @@ body {
     line-height: 1.71;
 }
 
-.work {
-    margin-top: 94px;
-    margin-bottom: 94px;
-}
-
 .works {
     display: flex;
 }
@@ -306,6 +308,10 @@ body {
     margin-left: 30px;
 }
 
+.person {
+    background-color: var(--color-background-primary);
+}
+
 .person-name {
     text-align: center;
     color: var(--color-text-title);
@@ -318,9 +324,10 @@ body {
 }
 
 .specialty {
+    margin-bottom: 30px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -380,7 +387,6 @@ body {
 .buttons-nav {
     display: flex;
     justify-content: center;
-    margin-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -394,8 +400,8 @@ body {
     border-radius: 4px;
     text-align: center;
     border: none;
+    padding: 6px 22px;
     font-size: 16px;
-    line-height: 1.63;
     font-weight: 500;
     letter-spacing: 0.03em;
 }
@@ -425,14 +431,6 @@ body {
     margin-bottom: 0;
 }
 
-.img-text {
-    color: var(--color-text-title);
-    font-size: 18px;
-    line-height: 2;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-}
-
 .description {
     padding: 20px 24px;
     background-color: white;
@@ -441,9 +439,25 @@ body {
     border-right: 1px solid #EEEEEE;
 }
 
+.img-text {
+    color: var(--color-text-title);
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+
+.paragraph {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+}
+
 .footer-portfolio-page {
     background-color: var(--color-hero);
-    margin-top: 94px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
