@@ -260,8 +260,6 @@ body {
 
 .content {
     display: flex;
-    margin-top: 94px;
-    margin-bottom: 94px;
 }
 
 .content .content-item + .content-item {
@@ -402,6 +400,7 @@ body {
     border: none;
     padding: 6px 22px;
     font-size: 16px;
+    line-height: 1.625;
     font-weight: 500;
     letter-spacing: 0.03em;
 }
@@ -433,7 +432,6 @@ body {
 
 .description {
     padding: 20px 24px;
-    background-color: white;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
